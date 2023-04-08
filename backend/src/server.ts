@@ -18,7 +18,7 @@ app.get("/api/foods/search/:searchTerm", (req,res)=>{
     res.send(foods)
 })
 
-app.get("/api/foods/tags", (reg, res)=>{
+app.get("/api/foods/tags", (req, res)=>{
     res.send(sample_tags)
 })
 
